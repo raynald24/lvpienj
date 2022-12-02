@@ -105,6 +105,7 @@ int main(){
 		
 	}while(again == 'y' || again == 'Y');
 		cout << "Thank you to order the ticket" << endl;
+		cout << "ahaha" << endl;
 	
 	return 0;
 }
