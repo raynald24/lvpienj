@@ -86,7 +86,11 @@ int main ()
 						while (l){
 							cout << "\n" << "Please Choose the match that you want to see" << endl;
 							cin >> chooseLaLigaMatch;
-							string LaLigaStadium[11] = {"", "Montilivi", "Benito Villamarin Stadium", "Wanda Metropolitano", "Alfonso Perez", "Balaidos Stadium", "Estadio Nuevo Mirandilla", "Nuevo Jose Zorrilla Stadium", "Camp Nou", "Anoeta Stadium", "Estadio Ciudad de Valencia"};
+							string LaLigaStadium[11] = {"", "Montilivi", "Benito Villamarin Stadium", 
+	                                                "Wanda Metropolitano", "Alfonso Perez", "Balaidos Stadium", 
+	                                                "Estadio Nuevo Mirandilla",
+	                                                "Nuevo Jose Zorrilla Stadium", "Camp Nou", "Anoeta Stadium", 
+	                                                "Estadio Ciudad de Valencia"};
 							if (chooseLaLigaMatch >= 0 && chooseLaLigaMatch <= 11) {
 								l = false;
 							}
@@ -118,6 +122,16 @@ int main ()
 						cout << "|9.	|Man Utd V Nottingham		|2022/12/28	|03.00 WIB	|" << endl;
 						cout << "|10.	|Leeds V Man City			|2022/12/29	|03.00 WIB	|" << endl;
 						cout << "-------------------------------------------------------------" << endl;
+		                                cout << "\n" << "Please Choose the match that you want to see" << endl;
+	                                        cin >> choosepremiereMatch;
+						string PremiereStadium[11] = {"", "Gtech Community Stadium", 
+						"st. Mary's stadium",
+						"King Power stadium",
+						"Selhurst Park stadium",
+						"Goodison Park","Villa Park",
+						"Emirates stadium", "stamford bridge",
+						"Old Trafford","Elland Road"
+						}
 					}
 					else if (chooseLeague == 3){
 						k = false;
@@ -137,6 +151,16 @@ int main ()
 						cout << "|9.	|Udinese V Empoli			|2022/01/05	|02.45 WIB	|" << endl;
 						cout << "|10.	|Inter V Napoli				|2022/01/05	|02.45 WIB	|" << endl;
 						cout << "-------------------------------------------------------------" << endl;
+	                                        cout << "\n" << "Please Choose the match that you want to see" << endl;
+						cin >> chooseItaliaMatch;
+						string ItaliaStadium[11] = {"", "Stadio Arechi",
+						"Stadio citta del tricola",
+						"Olimpico di Torino",
+						"Alberto Picco", "Stadio Olimpico",
+						"Stadio Comunale Via del Mare",
+						"Stadio Artemio Franchi", "Giovanni Zini Stadium",
+						"Friuli", "San Siro"	
+							}
 					}
 					else {
 						k = true;
