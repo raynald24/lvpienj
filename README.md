@@ -105,18 +105,18 @@ int main ()
 						league = "Premier League";
 						cout << "You choose the Premier League" << endl;
 						cout << "-------------------------------------------------------------" << endl;
-						cout << "|No.	|Match|Date		|Time		|" << endl;
+						cout << "|No.	|Match                      |Date       |Time       |" << endl;
 						cout << "-------------------------------------------------------------" << endl;							
-						cout << "|1.	|Brentford V Tottenham		|2022/12/26	|19.30 WIB	|" << endl;
-						cout << "|2.	|Southampton V Brighton		|2022/12/26	|22.00 WIB	|" << endl;
-						cout << "|3.	|Leicester V Newcastle		|2022/12/26	|22.00 WIB	|" << endl;
-						cout << "|4.	|Crystal Palace V Fulham	|2022/12/26	|22.00 WIB	|" << endl;
-						cout << "|5.	|Everton V Wolves			|2022/12/26	|22.00 WIB	|" << endl;
-						cout << "|6.	|Aston Villa V Liverpool	|2022/12/27	|00.30 WIB	|" << endl;
-						cout << "|7.	|Arsenal V West Ham			|2022/12/27	|03.30 WIB	|" << endl;
-						cout << "|8.	|Chelsea V Bournemouth		|2022/12/28	|00.30 WIB	|" << endl;
-						cout << "|9.	|Man Utd V Nottingham		|2022/12/28	|03.00 WIB	|" << endl;
-						cout << "|10.	|Leeds V Man City			|2022/12/29	|03.00 WIB	|" << endl;
+						cout << "|1.	|Brentford V Tottenham      |2022/12/26 |19.30 WIB  |" << endl;
+						cout << "|2.	|Southampton V Brighton     |2022/12/26 |22.00 WIB  |" << endl;
+						cout << "|3.	|Leicester V Newcastle      |2022/12/26 |22.00 WIB  |" << endl;
+						cout << "|4.	|Crystal Palace V Fulham    |2022/12/26 |22.00 WIB  |" << endl;
+						cout << "|5.	|Everton V Wolves           |2022/12/26 |22.00 WIB  |" << endl;
+						cout << "|6.	|Aston Villa V Liverpool    |2022/12/27 |00.30 WIB  |" << endl;
+						cout << "|7.	|Arsenal V West Ham         |2022/12/27 |03.30 WIB  |" << endl;
+						cout << "|8.	|Chelsea V Bournemouth      |2022/12/28 |00.30 WIB  |" << endl;
+						cout << "|9.	|Man Utd V Nottingham       |2022/12/28 |03.00 WIB  |" << endl;
+						cout << "|10.	|Leeds V Man City           |2022/12/29 |03.00 WIB  |" << endl;
 						cout << "-------------------------------------------------------------" << endl;
 					}
 					else if (chooseLeague == 3){
@@ -124,18 +124,18 @@ int main ()
 						league = "Serie A Italia";
 						cout << "You choose the Serie A Italia" << endl;
 						cout << "-------------------------------------------------------------" << endl;
-						cout << "|No.	|Match						|Date		|Time		|" << endl;
+						cout << "|No.	|Match                      |Date       |Time       |" << endl;
 						cout << "-------------------------------------------------------------" << endl;							
-						cout << "|1.	|Salernitana V Milan		|2022/01/04	|18.30 WIB	|" << endl;
-						cout << "|2.	|Sassuolo V Sampdoria		|2022/01/04	|18.30 WIB	|" << endl;
-						cout << "|3.	|Torino V Verona			|2022/01/04	|20.30 WIB	|" << endl;
-						cout << "|4.	|Spezia V Atalanta			|2022/01/04	|22.30 WIB	|" << endl;
-						cout << "|5.	|Roma V Bologna				|2022/01/04	|22.30 WIB	|" << endl;
-						cout << "|6.	|Lecce V Lazio				|2022/01/04	|00.30 WIB	|" << endl;
-						cout << "|7.	|Fiorentina V Monza			|2022/01/05	|00.30 WIB	|" << endl;
-						cout << "|8.	|Cremonese V Juventus		|2022/01/05	|00.30 WIB	|" << endl;
-						cout << "|9.	|Udinese V Empoli			|2022/01/05	|02.45 WIB	|" << endl;
-						cout << "|10.	|Inter V Napoli				|2022/01/05	|02.45 WIB	|" << endl;
+						cout << "|1.	|Salernitana V Milan        |2022/01/04 |18.30 WIB  |" << endl;
+						cout << "|2.	|Sassuolo V Sampdoria       |2022/01/04	|18.30 WIB  |" << endl;
+						cout << "|3.	|Torino V Verona            |2022/01/04	|20.30 WIB  |" << endl;
+						cout << "|4.	|Spezia V Atalanta          |2022/01/04	|22.30 WIB  |" << endl;
+						cout << "|5.	|Roma V Bologna             |2022/01/04	|22.30 WIB  |" << endl;
+						cout << "|6.	|Lecce V Lazio              |2022/01/04	|00.30 WIB  |" << endl;
+						cout << "|7.	|Fiorentina V Monza         |2022/01/05	|00.30 WIB  |" << endl;
+						cout << "|8.	|Cremonese V Juventus       |2022/01/05	|00.30 WIB  |" << endl;
+						cout << "|9.	|Udinese V Empoli           |2022/01/05	|02.45 WIB  |" << endl;
+						cout << "|10.	|Inter V Napoli             |2022/01/05	|02.45 WIB  |" << endl;
 						cout << "-------------------------------------------------------------" << endl;
 					}
 					else {
