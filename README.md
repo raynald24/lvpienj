@@ -5,10 +5,9 @@ using namespace std;
 
 int main ()
 {
-	string name, gender, league, match;
+	string name, gender, league, match, date, time;
 	char  genderChoose, again, order, Class;
-	int chooseLeague, chooseLaLigaMatch;
-	const economy = 1.500.000, VIP = 5.000.000;
+	int chooseLeague, chooseLaLigaMatch, economy = 1500000, VIP = 5000000;
 	
 	do{
 		cout << "************************************************************************************************************" 	<< endl;
@@ -87,17 +86,17 @@ int main ()
 						while (l){
 							cout << "\n" << "Please Choose the match that you want to see" << endl;
 							cin >> chooseLaLigaMatch;
-							string LaLigaStadium[11] = {"", "Montilivi", "Benito Villamarin Stadium", "Wanda Metropolitano", "Alfonso Perez", "Balaidos Stadium", "Estadio Nuevo Mirandilla", "Nuevo Jose Zorrilla Stadium", "Camp Nou", "Anoeta Stadium", "Estadio Ciudad de Valencia"}
+							string LaLigaStadium[11] = {"", "Montilivi", "Benito Villamarin Stadium", "Wanda Metropolitano", "Alfonso Perez", "Balaidos Stadium", "Estadio Nuevo Mirandilla", "Nuevo Jose Zorrilla Stadium", "Camp Nou", "Anoeta Stadium", "Estadio Ciudad de Valencia"};
 							if (chooseLaLigaMatch >= 0 && chooseLaLigaMatch <= 11) {
 								l = false;
 							}
 							else if (chooseLaLigaMatch == 1) {
-								match = "Girona V Rayo"
-								date = "2022/12/29"
-								time = "23.00 WIB"
+								match = "Girona V Rayo";
+								date = "2022/12/29";
+								time = "23.00 WIB";
 							}
 							else {
-								l = true
+								l = true;
 							}
 						}
 					}
@@ -146,7 +145,7 @@ int main ()
 					
 					//Choose Class
 					cout << "What class do you want to choose?" << endl;
-					cout << "Class ([E]conomy / [V]IP)	:"; cin << Class;
+					cout << "Class ([E]conomy / [V]IP)	:"; cin >> Class;
 					Class = tolower(Class);
 					if (Class == 'e') {
 						cout << "Your price for this ticket would be" << economy << endl;
